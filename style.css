@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 247, 247);
+    margin-top: 3%;
+    height: 700px;
+    border-radius: 30px;
+}
+
+.budget{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.money{
+    background-color: rgb(204, 245, 245);
+    padding: 10px;
+    border-radius: 20px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amount, .income_items, .expense_items{
+    display: flex;
+}
+
+.entries input{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(204, 245, 245);
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.entries input::placeholder{
+    color: rgb(167, 164, 164);
+}
+
+#description{
+    width: 70%;
+}
+
+#value{
+    width: 20%;
+}
+
+.buttons{
+    margin: 20px;
+}
+
+.buttons #income,
+.buttons #expense{
+    border: none;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+#income{
+    background-color: rgb(118, 243, 118);
+    color: white;
+}
+
+#expense{
+    background-color: rgb(236, 96, 96);
+    color: white;
+}
+
+#income:hover{
+    background-color: rgb(204, 245, 245);
+    color: black;
+}
+
+#expense:hover{
+    background-color: rgb(204, 245, 245);
+    color: black;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#source_income h3{
+    color: rgb(6, 65, 6);
+    margin-top: 30px;
+}
+
+#source_expense h3{
+    color: rgb(238, 19, 12);
+    margin-top: 30px;
+}
+
+.items .bonus{
+    background-color: rgb(204, 245, 245);
+    padding: 10px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.items .minus{
+    background-color: rgb(204, 245, 245);
+    padding: 10px;
+    align-items: center;
+}
+
+.income_items, .expense_items{
+    background-color: rgb(204, 245, 245);
+    padding: 10px;
+    border-radius: 20px;
+    width: 18%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
