@@ -12,4 +12,3 @@ document.getElementById("add__expense").addEventListener("click",()=>{
     document.getElementById("product_price").innerHTML = product_price;
     document.getElementById("amount__spent").innerHTML = product_price;    
 })
-
